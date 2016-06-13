@@ -7,6 +7,5 @@
 使用方法：
 recyclerview.addItemDecoration(new RecyclerLineView(this, OrientationHelper.VERTICAL));
 recyclerview.addItemDecoration(new RecyclerLineView(this, OrientationHelper.HORIZONTAL));
-
-
+![](http://upload-images.jianshu.io/upload_images/1126674-53d5d098be263f9f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 gg
