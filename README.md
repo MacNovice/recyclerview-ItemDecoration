@@ -8,25 +8,5 @@
 recyclerview.addItemDecoration(new RecyclerLineView(this, OrientationHelper.VERTICAL));
 recyclerview.addItemDecoration(new RecyclerLineView(this, OrientationHelper.HORIZONTAL));
 
-需要准备：
-RecyclerLineView.class   复制到自定义View文件夹
-listdivider.xml  复制到res/drawable
-在style里面  
-    <style name="AppTheme" parent="Theme">
-        <!-- Customize your theme here. -->
-        <item name="android:listDivider">@drawable/listdivider</item>
-    </style>
-    
-自定义：
-   <?xml version="1.0" encoding="utf-8"?>
-   <shape xmlns:android="http://schemas.android.com/apk/res/android"
-     android:tint="#e0e0e0">
-     <solid android:color="#e0e0e0" />
-     <size
-        android:height="2dp"
-        android:width="2dp" />
-   </shape>
-颜色修改上面的色值
-宽度、高度修改height、width
 
 gg
