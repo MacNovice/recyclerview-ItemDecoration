@@ -5,7 +5,7 @@
 
 
 使用方法：
-recyclerview.addItemDecoration(new RecyclerLineView(this, OrientationHelper.VERTICAL));
-recyclerview.addItemDecoration(new RecyclerLineView(this, OrientationHelper.HORIZONTAL));
+recyclerview.addItemDecoration(newGridItemDecoration(this,true));//普通的
+recyclerview.addItemDecoration(newGridItemDecoration(this,true));//加油header的
 ![](http://upload-images.jianshu.io/upload_images/1126674-53d5d098be263f9f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 gg
